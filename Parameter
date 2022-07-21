@@ -1,0 +1,132 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "easyButtonLinkedTemplateLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/armtemplates/EasyButton_06-23-2022/nestedTemplates/"
+        },
+        "createHostpoolTemplateLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/armtemplates/Hostpool_06-23-2022/CreateHostpoolTemplate.json"
+        },
+        "createHostpoolNestedTemplatesLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/armtemplates/Hostpool_06-23-2022/nestedTemplates/"
+        },
+        "deploymentRG": {
+            "value": "AVD-deployment"
+        },
+        "prerequisiteRG": {
+            "value": "AVD"
+        },
+        "wvdResourcesRG": {
+            "value": ""
+        },
+        "location": {
+            "value": "australiaeast"
+        },
+        "azureCloudEnvironment": {
+            "value": "AzureCloud"
+        },
+        "azureAdminUPN": {
+            "value": ""
+        },
+        "azureAdminPassword": {
+            "value": null
+        },
+        "identityApproach": {
+            "value": "AD_DS"
+        },
+        "domainAdminUPN": {
+            "value": ""
+        },
+        "domainAdminPassword": {
+            "value": null
+        },
+        "validationUserName": {
+            "value": ""
+        },
+        "validationUserPassword": {
+            "value": null
+        },
+        "isSubscriptionEmpty": {
+            "value": false
+        },
+        "vnetName": {
+            "value": ""
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "vmNamePrefix": {
+            "value": "SessionHost"
+        },
+        "vmImageType": {
+            "value": "Gallery"
+        },
+        "vmGalleryImageOffer": {
+            "value": "office-365"
+        },
+        "vmGalleryImagePublisher": {
+            "value": "microsoftwindowsdesktop"
+        },
+        "vmGalleryImageSKU": {
+            "value": "win10-21h2-avd-m365-g2"
+        },
+        "vmGalleryImageVersion": {
+            "value": ""
+        },
+        "vmImageVhdUri": {
+            "value": ""
+        },
+        "vmCustomImageSourceId": {
+            "value": ""
+        },
+        "vmTemplate": {
+            "value": ""
+        },
+        "vmSize": {
+            "value": "Standard_D2s_v4"
+        },
+        "vmNumberOfInstances": {
+            "value": 1
+        },
+        "hostpoolType": {
+            "value": "Pooled"
+        },
+        "personalDesktopAssignmentType": {
+            "value": ""
+        },
+        "maxSessionLimit": {
+            "value": 16
+        },
+        "domainControllerVMResourceGroup": {
+            "value": ""
+        },
+        "domainControllerVMName": {
+            "value": ""
+        },
+        "usersToAssign": {
+            "value": ""
+        },
+        "customConfigurationTemplateUrl": {
+            "value": ""
+        },
+        "customConfigurationParameterUrl": {
+            "value": ""
+        },
+        "deploymentId": {
+            "value": ""
+        },
+        "timestampInUtc": {
+            "value": ""
+        },
+        "ouPath": {
+            "value": ""
+        },
+        "domain": {
+            "value": ""
+        },
+        "systemData": {
+            "value": {}
+        }
+    }
+}
